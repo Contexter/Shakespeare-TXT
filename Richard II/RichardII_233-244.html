@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RichardII: Original vs. Modernized</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            line-height: 1.5;
+        }
+        .column {
+            flex: 1;
+            padding: 20px;
+            margin: 10px;
+            overflow-x: auto;
+        }
+        .original {
+            border-right: 2px solid grey;
+        }
+        h2 {
+            text-align: center;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="column original">
+        <h2>Original Text</h2>
+        <pre>KING RICHARD II
+We were not born to sue, but to command;...</pre>
+    </div>
+    <div class="column modern">
+        <h2>Modernized Text</h2>
+        <pre>KING RICHARD II^
+We weren't born to beg or plead, but to lead;...</pre>
+    </div>
+</body>
+</html>
